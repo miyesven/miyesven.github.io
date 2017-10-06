@@ -1,0 +1,316 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!--<link rel="icon" href="../../../../favicon.ico">-->
+
+    <title>UBC Solar</title>
+    
+    <!-- Custom styles for files inside solar folder-->
+     <link href="solar.css" rel="stylesheet">
+    
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel= "stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/narrow-jumbotron.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <h3 class="text-muted"> </h3> <!-- text-muted makes text grayed out-->
+      </div>
+
+      <div class="jumbotron">
+        <h2 class="display-4">UBC Solar Projects</h2>
+        <p class="display-5">Mechanical Lead
+        </p>
+      </div>
+
+      <div class="row marketing">
+        <div class=".col-lg">
+          <h2>Projects</h2>
+
+          <!--One project section-->
+          <p></p>
+          <p class="display-6">Mechanical Design Report</p>
+          <p>
+            The mechanical design report explains the design of the car for all major components and how the design complies with the competition regulations. Analysis is required for all fasteners and structural components to show a satisfactory safety factor. 
+            <br/><br/>
+            I wrote a large portion of the Mechanical System Analysis and compiled all the sections. I also generated most drawings from our CAD model and checked over the calculations by the other members. I also gained experience with ANSYS when doing some of the FEA simulations for structural components. The report was submitted and approved by FSGP Officials after one revision. 
+            <br/><br/>
+
+            <a href="">Read it here.</a>
+
+          </p><br/>
+          <!-- One project section end-->
+
+          <!--One project section-->
+          <p></p>
+          <p class="display-6">Motor Mount</p>
+
+          <p>
+            The rear swing arm was two inches shorter than the model, so the original motor mount would not allow the timing belt to transmit any torque because there was no pretension at all. 
+          </p>
+          <p>
+            I designed a new motor mount with the tension guide from Gates and remade a new model of the rear swing arm within a day in Solidworks. In the model, the motor mount was drawn with the sprocket and the rear wheel with the right center distance. I chose material and thicknesses with the loads on the motor mount in mind. Found new belts and bought material to waterjet the new motor mount. 
+
+            <br/><br/>However, the new motor mount did not work right away with the new belt. Although an improvement, the model I made was still not accurate to the manufactured rear swing arm. With no time left, I ran back and forth between the waterjet cutter and the workspace to cut the new motor mount, determining dimensions experimentally. 
+
+            <br/><br/>Building the motor mount taught me to think flexibly and use whatever materials I could for fast prototyping and for finding something that works without necessarily relying fully on analytical solutions. 
+          </p>
+          <p>
+            After 3-4 re-iterations, I found the dimensions of the motor mount that could work and mounted the motor with the belt just an hour before leaving for competition. 
+          </p>
+
+          <div class= "row">
+            <div class="col-12 col-md-auto">
+              <figure>
+                <IMG src="../images/mm.png" style="width:375px;height:250px;">
+                <FIGCAPTION class="text-muted"><em>Motor mount design in Solidworks</em></FIGCAPTION>
+              </figure>
+            </div>
+            <div class="col-12 col-md-auto">
+              <figure>
+                <IMG src="../images/Rear_Drivetrain_Assem.jpg" style="width:300px;height:400px;">
+                <FIGCAPTION class="text-muted"><em>Rear drive train assembled</em></FIGCAPTION>
+              </figure>
+            </div>
+          </div>
+
+          </p><br/>
+          <!-- One project section end-->
+
+          <!--One project section-->
+          <p></p>
+          <p class="display-6">Brake Pedal Redesign</p>
+          <p>
+            The original brake pedal was 10.5" in height but the height of the chassis only allowed at most 7.5". So this meant that at the position where the driver can comfortably reach, the brake pedal cannot go past the center truss of the chassis. The original brake pedal system we chose was a dual master cylinder floor mount assembly with a balancing bar in the pedal to control the distribution of pressure (CNC 204 Model). 
+
+            I redesigned the assembly, so that we could still use the pistons,the master cylinders and the balancing bar but with a new mount and pedal. I used parametric modelling in Solidworks to reiteratively find the best pedal ratio while still keeping the height constraint. I also used Solidworks to model the brake pedal mount, which was mated directly to the tubes of the chassis. 
+
+            <br/><br/>
+            For this project, I faced many constraints- I could not exceed a height of 7.5" while still keeping the pedal ratio high enough for the driver to put enough pressure on the brake disc. 
+
+            <br/><br/>
+            <b>Other constraints</b>
+            <ul> 
+              <li>Dimensional geometry constraints so that we can reuse parts from original brake pedal assembly</li>
+              <li>Cost Limitations</li>
+              <li>Manufacturing ease and access to machines</li>
+              <li>Had to finish within a very limited time</li>
+            </ul>
+
+            Overall, I used around a week to design and analyse the CAD model and order the materials for both the brake pedal and the brake pedal mount. Another week was used to finish manufacturing all the components. The last week was outsourcing the aluminium welding, powder coating and heat treatment of all the welds. I machined the components using the waterjet cutter, the mill and the lathe. I also waterjetted a sheet of mild steel for the brake pedal mount then used the press brake and the grinder to bend and fit the mount. 
+            <br/><br/>
+
+            <div class= "row">
+              <div class="col-12 col-md-auto">
+                <figure>
+                  <IMG src="../images/Brake_Assem.png" style="width:335px;height:275px;">
+                  <FIGCAPTION class="text-muted"><em>Brake Pedal Design </em></FIGCAPTION>
+                </figure>
+              </div>
+              <div class="col-12 col-md-auto">
+                <figure>
+                  <IMG src="../images/Brake_Chassis.png" style="width:320px;height:270px;">
+                  <FIGCAPTION class="text-muted"><em>Manufactured Brake Pedal &amp; Brake Pedal Mount</em></FIGCAPTION>
+                </figure>
+              </div>
+            </div>
+
+          </p><br/>
+          <!-- One project section end-->
+
+
+          <!--One project section-->
+          <p></p>
+          <p class="display-6">Canopy &amp; Egress System</p>
+          <p>
+            I oversaw the modification of the canopy to comply with the rollcage &amp; regulations, and the start to finish manufacturing process. The original plan was to thermalform the canopy from acrylic and we found that by making the canopy ourselves, we were able to reduce the cast from $10,000 to $2,000 while allowing members to gain experience with fabrication.
+
+            <br/><br/>
+
+            I helped to make the mold in CATIA, secured all the material to make the plug of the canopy and cut out all the wooden ribs in the waterjet and the table saw. The wooden sections would form the ribs of the canopy that would act as a guide to the contours of the canopy. The foam sheets would fill the gaps and was hot wired and sanded down to give a smooth curvature. 
+
+            As the fabrication process progressed, I became less involved in the actual fabrication as I was focusing on the Mechanical Report at that time. However, I was still very involved in the process as I was responsible for finding the fibre and matrix to buy for both the female mold and the actual part, as well as all the plaster, sanding paper and gelcoat which were used to prep the plug surface. 
+            
+            <br/><br/>
+            
+            I also designed the egress system- where the front half of the canopy hinged onto the topshell and swings open to enable the driver to jump out. The foot platform for the driver was designed by one of the members and I used the waterjet to cut the profile and the sheet metal bender to bend to the right profile.
+
+            <div class= "row">
+              <div class="col-12 col-md-auto">
+                <figure>
+                  <IMG src="../images/Canopy_0.png" style="width:425px;height:300px;">
+                  <FIGCAPTION class="text-muted"><em>Design of the canopy</em></FIGCAPTION>
+                </figure>
+              </div>
+            </div>
+
+            <b>Stages of the Canopy</b>
+            <div class="row">
+              <div class="col-12 col-md-auto">
+                <IMG src="../images/Canopy_1.jpg" style="width:300px;height:300px;">
+                <FIGCAPTION class="text-muted"><em>Plug covered with plaster and wax</em></FIGCAPTION>
+              </div>
+              <div class="col-12 col-md-auto">
+                <IMG src="../images/Canopy_2.jpg" style="width:350px;height:300px;">
+                <FIGCAPTION class="text-muted"><em>Fibreglassed plug/Female Mold</em></FIGCAPTION>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <IMG src="../images/Canopy_3.jpg" style="width:550px;height:300px;">
+                <FIGCAPTION class="text-muted"><em>Canopy integrated with Topshell</em></FIGCAPTION>
+              </div>
+            </div>
+
+          </p><br/>
+          <!-- One project section end-->
+
+
+          <!--One project section-->
+          <p></p>
+          <p class="display-6">Other Components</p>
+          <p>    
+
+          <h5> Fabrication </h5>
+    
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>Component</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Seat &amp; Seat Mould</td>
+                  <td>
+                    Chassis was small and not built according to regulations, so seat had to be custom designed to comply to the angles in the regulations.
+
+                    Modified member's design and was very involved in fabricating both the seat and the seat mould
+                  </td>
+                </tr>
+                <tr>
+                  <td>Wheel Adaptor</td>
+                  <td>Machined out a solid cylinder of aluminum and mates the sprocket with the wheel hub using the bandsaw, lathe and the mill.</td>
+                </tr>
+                <tr>
+                  <td>Parking Brake Adapter</td>
+                  <td>Took an existing brake disc and machined an adaptor that allowed for proper mating with the driving pulley.</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h5> Modification </h5>
+    
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>Component</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Wheel Axles</td>
+                  <td>
+                    Current axle design made it impossible to put in the axle with both bearings in the wheel hub. Modified the design so that there will just be a sleeve in the center. I machined the new shafts and added castle nuts for each end of each axle.
+                  </td>
+                </tr>
+                <tr>
+                  <td>Wheel Assembly</td>
+                  <td>
+                    Assembly in CAD did not account for the width of the head of the bolt, so I cut spacers and changed the length of the axle so that the wheel was effectively spaced out from the chassis.
+                  </td>
+                </tr>
+                <tr>
+                  <td>Steering Assembly</td>
+                  <td>
+                    Steering angle was limited by walls of upright and thickness of rod end bearing. Oversaw grinding of the upright and installed adapters to increase the angle by ~10 degrees per side. 
+                    <br/><br/>
+                    Steering column was too long so I remachined and outsourced welding and heat treatment rapidly.
+                  </td>
+                </tr>
+                 <tr>
+                  <td>Bottom Shell</td>
+                  <td>
+                    Taught members to do relief cuts for installing wheel and suspension assemblies. The original mounting points for the chassis were also too weak, so they had to be dremelled out and reinstalled.  
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h5> Overall Contribution </h5>
+            <p>
+              Overall, I oversaw the majority of the welding. I also managed the pre-competition bottomshell and Chassis integration. One of the main challenges was to prepare the car such that it was in compliance with competition regulations. I was also responsible in approving designs by members and all modifications to any part of the car. I was also in charge of purchasing of components, fasteners and securing of materials so that members could fabricate/assemble parts in time. 
+              <br/><br/>
+              Part of my responsibility also involved teaching the mechanical team to use power tools, as well as simple operations on heavy machinery such as waterjet cutters and mills. A more administrative aspect to my role is arranging tasks and framing projects for members while holding them accountable for deadlines. 
+            </p>
+
+          </p><br/>
+          <!-- One project section end-->
+
+          <h4> Below are some pictures of competition and of the final car!</h4>
+
+          <div class="row">
+            <div class="col-12 col-md-auto">
+              <IMG src="../images/C1.jpg"/>
+            </div> 
+            <div class="col-12 col-md-auto">
+              <IMG src="../images/C2.JPG"/> 
+            </div>
+            
+          </div>
+           <div class="row">
+            <div class="col-12 col-md-auto">
+               <IMG src="../images/C3.JPG"/> 
+            </div>
+            <div class="col-12 col-md-auto">
+              <IMG src="../images/C4.JPG"/>
+            </div>
+          </div>
+            <div class="row">
+            <div class="col-12 col-md-auto">
+               <IMG src="../images/C5.JPG"/> 
+            </div>
+            <div class="col-12 col-md-auto">
+              <IMG src="../images/C6.JPG"/>
+            </div>
+          </div>
+
+
+        </div>
+
+      <footer class="footer">
+        <p>&copy; Svena Yu 2017</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+  </body>
+</html>
