@@ -1,9 +1,24 @@
 .jumbotron {
-    background-color: #e9ecef;
-    /*background-image: url("../images/Testing_Array.JPG");
-    background-position: center;*/
+ 
+   /* background-image: url("../images/solar_heading.png"),linear-gradient:(rgba(0,0,0,0.5),rgba(0,0,0,0.5));*/
+   
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/solar_heading.png");
+    height: 325px;
 }
 
-.solar_heading img{
-	opacity: 0.3;
+.solar_heading_text{
+	position:relative;
+	top:-260px;
+	text-align: center;
 }
+
+.solar_heading_text h2,
+.solar_heading_text p{
+	color:#e9ecef!important
+}
+
+.solar_first_row{
+	position:relative;
+	top:-140px;
+}
+
