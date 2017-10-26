@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108067175-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-108067175-1');
-    </script>
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,10 +10,10 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <!--<link rel="icon" href="../../../../favicon.ico">-->
 
-    <title>UBC Solar</title>
+    <title>ENPH Robot</title>
     
     <!-- Custom styles for files inside solar folder-->
-     <link href="solar.css" rel="stylesheet">
+     <link href="spectre.css" rel="stylesheet">
     
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel= "stylesheet">
@@ -42,10 +33,10 @@
               <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="Solar/index.html">UBC Solar</a>
+              <a class="nav-link" href="../Solar/index.html">UBC Solar</a>
             </li>
              <li class="nav-item">
-              <a class="nav-link" href="https://enph2020.github.io/robots/spectre/">Robot</a>
+              <a class="nav-link active" href="Spectre/index.html">Robot</a>
             </li>
           </ul>
         </nav>
@@ -53,26 +44,81 @@
       </div>
 
       <div class="jumbotron">
-
       </div>
 
       <div class="solar_heading_text">
-        <h2 class="display-4">UBC Solar Projects</h2>
+        <h2 class="display-4">ENPH Robot Competition</h2>
         <p class="display-5">Mechanical Lead</p>
       </div>
 
       <div class="row marketing solar_first_row">
         <div class=".col-lg">
-          <h2>Projects</h2>
+          <h2> Components </h2>
+          <br/><br/>
+          <p class="display-6">Powertrain</p>
 
-          <!--One project section-->
-          <p></p>
-          <p class="display-6">Mechanical Design Report</p>
-          <p>
+          <figure>
+            <IMG src="../images/powertrain.jpg" style="width:400px;height:450px;">
+            <FIGCAPTION class="text-muted"><em>The base of the first chassis, with the powertrain fully assembled and in working condition</em></FIGCAPTION>
+          </figure>
             
-            <a href="mech_report.pdf">Read it here. (Please allow some time to load!)</a>
+          <p>
+            One of the first things I designed was the powertrain as it was essential for the electrical and software leads to start testing the motors and configuring the PID. Our competition strategy also hinged on how sharply the robot could turn. In order to simplify the design so that we would only need to build and refine one arm, instead of two, we decided we would turn the robot 90 degrees CCW or CW, depending on which track it is running on. For sharp turns, I made the trackwidth as small as the physical geometry allowed
+          </p>
+          <p>
+            I decided to use a 2:1 gear reduction to increase the torque transmitted to the wheels. The gears were CNC-cut with the laser cutter and the pinion was keyed to the shaft of the motor. A stationary axle was housed between bearings that were pressed into the wheel hub of the wheel. Tires were added for extra traction. The motors and gears were fitted such that there were no interference between the gears and the gears were also constrained axially. There was 0.5" of clearance from the bottom of the base plate to the ground- I wanted the robot's center of gravity to be low for better stability.
+          </p>
+          <p>
+            Due to excessive wear of the key hole between the shaft and the pinion, we eventually made all the gears from delrin instead of MDF from the second chassis onwards. The powertrain ran much more efficiently and quietly after the switch and even after running almost everyday for three weeks till the competition, none of the parts ever had to be replaced.
+          </p>
 
-          </p><br/>
+          <p></p><br/><br>
+
+          <p class="display-6">Chassis</p>
+          <figure>
+            <IMG src="../images/chassis_evolutions.svg" style="width:850px;height:400px;">
+            <FIGCAPTION class="text-muted" style="text-align:center;"><em>The evolution of our three main chassis, with varying levels of completions.</em></FIGCAPTION>
+            <FIGCAPTION class="text-muted" style="text-align:center;"><em>Fun fact: The second chassis rolled off a 1.5m tall platform and crashed into the ground. Only one of the extra supports was broken.</em></FIGCAPTION>
+          </figure>
+
+          <figure>
+            <IMG src="../images/chassis_cad.svg" style="width:850px;height:400px;">
+            <FIGCAPTION class="text-muted" style="text-align:center;"><em>CAD Designs in Onshape</em></FIGCAPTION>
+          </figure>
+
+          <p>
+            I designed and fabricated all components of the robot except for most electrical hardware and the gripper of the arm. <b>The main considerations</b> were the geometrical restrictions posed by the track (there were gates at the starting point that limited to total size of the robot), the weight of the robot (as we wanted to hoist the entire robot on the sliding rail above the track), the placements of electronics and ease of testing and debugging as time was limited.
+            <ul>
+              <li> Chassis Housing: The base plate was the main structural components made of 0.25" MDF wood. All main mounting points were cut out from the base plate and mated using a jigsaw pattern. Main mounting points included: Two arm-mounting platforms, zipline hook and motor assembly, powertrain assembly, back plate for electronics mounting and QRD mounting points. </li>
+              <li> Electronics Mounting: The main electronics mounting point was the back plate- where the TINAH (the microcontroller we used) was mounted. The central electronics panel was mounted in a protective box above the powertrain assembly and battery storage space. The high-torque motor was mounted in the front due to geometry reasons and the QRDs were mounted on the underside of our base plate so that they were close to the ground to obtain reliable readings. The front where they were mounted was also a bumper for our robot that prevented damage to the QRDs when bumping into the gates on the track during testing.</li>
+              <li> Mechanical Mounting: The powertrain mounts were the most structurally sound as the drivetrain needs to be rigid so that the robot drives true and hence simplifies the code for the PID controls. The arm mounting points needed to be tall to reach the agents to score points, but did not need to be as robust as the powertrain. Hence, the platforms have cutouts to save weight. 
+                <ul><li>
+                The zipline hook mounting points were the trickiest to nail down. The 1"x 1" 80/20 rail mounts through a hole near the center of the robot, with two small holes for the kevlar-braid to pass through. A large 2" washer sits on the bottom of the baseplate to distribute the stress imposed by the 80/20 rail when pulling the robot up.
+                </li></ul>
+              </li>
+            </ul>
+          </p> <br/><br/>
+
+          <p class="display-6">Zipline Hook</p>
+          <figure>
+            <IMG src="../images/zipline.svg" style="width:850px;height:500px;">
+            <FIGCAPTION class="text-muted" style="text-align:center;"><em>The zipline hook- the most interesting and challenging part of our robot</em></FIGCAPTION>
+          </figure>
+
+          <p>
+            The zipline hook is an additional challenge we imposed on ourselves as most teams sent baskets down on the inclined slide to score points <b>but we chose to go the extra length</b> to winch the entire robot onto the pipe standing around 19" above the ground at high points (Why not- it's awesome!). It is a pulley system where the pivot pulley is on the underside of the base plate of the chassis, instead of the top as one might expect. The entire aluminium sheet metal with the pully then decreases the length, while pivoting on the slide itself. The rest of the robot looses contact with the ground and eventually slides down the slide by itself.
+            <br/><br/>
+
+            <figure>
+            <IMG src="../images/sliding.gif" style="width:650px;height:400px;">
+            <FIGCAPTION class="text-muted" style="text-align:left;"><em>A gif of the robot winching system doing it's job!</em></FIGCAPTION>
+             <FIGCAPTION class="text-muted" style="text-align:left;"><em>Fun fact: The zipline hook is the most reliable and consistent component in performance during runs.</em></FIGCAPTION>
+            </figure>
+          </p>
+          <p>
+            The zipline was not only tedious to fabricate and to mount, but also integrating the entire system with the software presented many new challenges that we would not have expected. For example, a big one was the large amount that the front of the chassis lifted up when the hook, held by both tension sprinsga and a servo motor. This causes the QRDs to miss readings and so we had to come up with solutions on the spot to resolve them in a short amount of time. We put masses on the front to reduce the lift-up movement and adjusted the code, such that the lift-offs care taken into consideration.
+          </p>
+
         </div>
       </div>
           <!-- One project section end-->
