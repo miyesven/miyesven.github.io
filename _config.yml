@@ -11,4 +11,23 @@ github_username: miyesven
 #build settings
 remote_theme: bogoli/-folio
 
+# Build settings
+markdown: kramdown
+
+highlighter: rouge
+
+# Pagination
+paginate: 15
+paginate_path: "/blog/page:num/"
+
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+  poetry:
+    output: true
+    permalink: /poetry/:path/
+
 show_excerpts: true # set to false to remove excerpts on the homepage
+
