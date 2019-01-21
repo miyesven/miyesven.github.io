@@ -1,0 +1,14 @@
+title: Svena's Portfolio
+author: miyesven
+# email: your-email@domain.com
+description: Project Showcase
+# social links
+# twitter_username: your-twitter-handle
+
+#code links
+github_username: miyesven
+
+#build settings
+remote_theme: bogoli/-folio
+
+show_excerpts: true # set to false to remove excerpts on the homepage
