@@ -32,7 +32,7 @@ Test Parameters:
 
 <div class="img_row">
 	<img class="col one" src="{{ site.baseurl }}/img/8350_prototype.png" alt="" title="prototype"/>
-	<img class="col two" src="{{ site.baseurl }}/img/8350_cad.jpg" alt="" title="final cad"/>
+	<img class="col two" src="{{ site.baseurl }}/img/8350_cad.JPG" alt="" title="final cad"/>
 </div>
 <div class="col three caption">
 	Left: Small prototype version. Right: Full size test fixture with 10 samples.
@@ -41,7 +41,7 @@ Test Parameters:
 The validation test itself was in the form of a pressure decay test to characterize the performance of the seals as they were proggressively aged. 
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/8350_setup.jpg" alt="" title="Test Setup"/>
+	<img class="col three" src="{{ site.baseurl }}/img/8350_setup.JPG" alt="" title="Test Setup"/>
 </div>
 
 <div class="col three caption">
@@ -78,7 +78,7 @@ However, I realised that the spoiler that the actuator is pushing on has a displ
 	<br/><br/>
 	I also initiated an extra test for a thermally aged sample that was not on the test request. Running the test on an aged sample would give us additional confidence for the bond strength.
 	</span>
-	<img class="col one" style="width=50%;" src="{{ site.baseurl }}/img/10897_setup.jpg" alt="" title="Displacement measurement setup"/>
+	<img class="col one" style="width=50%;" src="{{ site.baseurl }}/img/10897_setup.JPG" alt="" title="Displacement measurement setup"/>
 </div>
 
 <br/>
