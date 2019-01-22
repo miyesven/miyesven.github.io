@@ -8,7 +8,7 @@ img: /img/1.jpg
 The existing test fixture to test the ultimate torsional strength of half shafts does not have the necessary torque necessary to run the test. A gearbox was needed to increase the torque such that a safety margin could be attained at peak loads during the test. The new test fixture also had the additional capability to be Model 3/S/X compatible.
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/planet_testfix.jpg" alt="" title="example image"/>
+	<img class="col three" src="{{ site.baseurl }}/img/planet_testfix.JPG" alt="" title="test fixture"/>
 </div>
 <div class="col three caption">
 	The test fixture setup in CATIA, complete with test components and constrained gearbox.
