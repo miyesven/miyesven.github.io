@@ -2,7 +2,7 @@
 layout: post
 title: Planetary Gearbox
 description: Designed a speed reducer gearbox and accompanying test fixture
-img: /img/1.JPG
+img: /img/1.jpg
 ---
 
 The existing test fixture to test the ultimate torsional strength of half shafts does not have the necessary torque necessary to run the test. A gearbox was needed to increase the torque such that a safety margin could be attained at peak loads during the test. The new test fixture also had the additional capability to be Model 3/S/X compatible.
