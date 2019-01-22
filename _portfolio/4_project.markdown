@@ -2,7 +2,7 @@
 layout: post
 title: UBC Solar Brake Pedal & Egress 
 description: 
-img: /img/4.JPG
+img: /img/4.jpg
 ---
 
 <h2>Brake Pedal Redesign</h2>

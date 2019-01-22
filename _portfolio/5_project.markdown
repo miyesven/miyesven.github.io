@@ -2,7 +2,7 @@
 layout: post
 title: UBC Solar FSGP 2017
 description: Oversaw integration of first generation car
-img: /img/5.JPG
+img: /img/5.jpg
 ---
 
 <h2> FSGP 2017 </h2>
