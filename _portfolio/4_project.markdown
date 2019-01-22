@@ -1,7 +1,7 @@
 ---
 layout: post
 title: UBC Solar Brake Pedal & Egress 
-description: 
+description: Student team design projects
 img: /img/4.jpg
 ---
 

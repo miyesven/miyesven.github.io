@@ -2,7 +2,7 @@
 layout: post
 title: Test Development
 description: Validation of new production seals
-img: /img/2.jpg
+img: /img/2.png
 ---
 
 Developed two major tests: One for validating a new production seal and another test to validate the strength of a rear spoiler. 
@@ -31,7 +31,7 @@ Test Parameters:
 </ul>
 
 <div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/8350_prototype.png" alt="" title="prototype"/>
+	<img class="col one" src="{{ site.baseurl }}/img/8350_prototype.jpg" alt="" title="prototype"/>
 	<img class="col two" src="{{ site.baseurl }}/img/8350_cad.JPG" alt="" title="final cad"/>
 </div>
 <div class="col three caption">
