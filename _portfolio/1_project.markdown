@@ -74,7 +74,7 @@ Developed the relevant requirements and specifications for the gearbox below bas
 <br/>
 In the process, I have also considered using both spur gears and helical gears. 
 <div class="img_row">
-	<img class="col two" src="{{ site.baseurl }}/img/planet_spur.png" alt="" title="spur gear concept"/>
+	<img class="col two" src="{{ site.baseurl }}/img/planet_concept.JPG" alt="" title="spur gear concept"/>
 	<div class="col one"> Spur gears were too bulky for the torque load that was required. Helical gears were too expensive, plus the weight savings were not significant over the spur gear option.
 		<br/><br/>
 		<span style="font-size:12px;color:#bdbdbd;"> Spur gear concept CAD on the left. </span>

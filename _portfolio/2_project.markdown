@@ -2,7 +2,7 @@
 layout: post
 title: Test Development
 description: Validation of new production seals
-img: /img/2.png
+img: /img/2.PNG
 ---
 
 Developed two major tests: One for validating a new production seal and another test to validate the strength of a rear spoiler. 
