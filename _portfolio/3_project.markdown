@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Robot
-description: 
+description: Built an autonomous robot for a robot competition
 img: /img/3.jpg
 ---
 <h3> Powertrain </h3>
