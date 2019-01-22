@@ -107,3 +107,6 @@ Overall, I oversaw the majority of the welding and managed the pre-competition b
 <div class="col three caption">
 	Arriving at competition!
 </div>
+<br/>
+-end-
+<br/><br/>
