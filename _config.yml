@@ -1,0 +1,35 @@
+title: Svena's Portfolio
+author: miyesven
+# email: your-email@domain.com
+description: Project Showcase
+baseurl:  # the subpath of your site, e.g. /blog/
+url:  # the base hostname & protocol for your site
+# social links
+# twitter_username: your-twitter-handle
+
+#code links
+github_username: miyesven
+
+#build settings
+remote_theme: bogoli/-folio
+
+# Build settings
+markdown: kramdown
+
+highlighter: rouge
+
+# Pagination
+paginate: 15
+paginate_path: "/blog/page:num/"
+
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+  # poetry:
+  #   output: true
+  #   permalink: /poetry/:path/
+
+# show_excerpts: true # set to false to remove excerpts on the homepage
+
