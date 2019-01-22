@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Robot</title>
+    <meta name="description" content="Project Showcase">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://localhost:4000/portfolio/3_project/">
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <nav class="site-nav">
+
+      <div class="trigger">
+        <!-- Svena's Portfolio instead of blog -->
+        <a class="page-link" href="/">blog</a>
+
+        
+          
+          <a class="page-link" href="/about/">about</a>
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/portfolio/">portfolio</a>
+          
+        
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Robot</h1>
+    <p class="post-meta">January 21, 2019 — 22:45</p>
+  </header>
+
+  <article class="post-content">
+    <h3> Powertrain </h3>
+
+<p><br /></p>
+<div style="width=100%;">
+	<span class="col half"> 
+		One of the first things I designed was the powertrain as it was essential for the electrical and software leads to start testing the motors and configuring the PID. Our competition strategy also hinged on how sharply the robot could turn. For sharp turns, I made the trackwidth as small as the physical geometry allowed.
+		<br /><br />
+		Due to excessive wear of the key hole between the shaft and the pinion, we eventually made all the gears from delrin instead of MDF from the second chassis onwards. The maintenance of the powertrain dropped to nearly zero occurrences throughout the prototyping and competition duration.
+	</span>
+	<img class="col half" src="/img/robot_powertrain.jpg" alt="" title="first powertrain iteration" />
+</div>
+
+<h3> Chassis </h3>
+
+<div>
+	<img class="col three" src="/img/robot_chassis.svg" alt="" title="Chassis evolution through three iterations" />
+</div>
+
+<div class="col three caption">
+	The evolution of our main chassis, with varying levels of completions.
+</div>
+
+<p><br />
+ I designed and fabricated all components of the robot except for most electrical hardware and the gripper of the arm. 
+ <br />
+ Main considerations were:</p>
+<ul>
+ 	<li> Geometrical restrictions posed by the track (there were gates at the starting point that limited to total size of the robot) 
+ 	</li>
+ 	<li> The weight of the robot (as we wanted to hoist the entire robot on the sliding rail above the track) 
+ 	</li>
+ 	<li> The placements of electronics with accessibility in mind- for ease of testing and debugging as time was limited. 
+ 	</li>
+ </ul>
+
+<p>The chassis needed to be structurally sound to provide adequate mounting support for electronics like the main controller board (TINAH), QRDs (for positioning), batteries and so on. The most involved mounting point was that of the zipline hook.</p>
+
+<h3> Zipline Hook </h3>
+
+<p><br /></p>
+<div>
+	<img class="col three" src="/img/robot_zipline.jpg" alt="" title="mechanisms of zipline hook" />
+</div>
+
+<div>
+	The zipline hook is an additional challenge we imposed on ourselves as most teams sent baskets down on the inclined slide to score points. Instead of sending a basket down, we wanted to hoist the entire robot onto the pipe standing around 19" above the ground.
+	<br /><br />
+	It is a pulley system where the pivot pulley is on the underside of the base plate of the chassis, instead of the top as one might expect. As the motor shaft turns, the kevlar braid winds onto the shaft, decreasing the length between the white rail guide and the bottom of the chassis.  Using the slide as the pivot point, the rest of the robot looses contact with the ground and rolls down the slide.
+	<br /><br />
+	The zipline was not only tedious to fabricate and to mount, but integrating the entire system with the software presented many new challenges that we would not have expected. 
+	<br /><br />
+	For example, when the hook was released, the spring force caused the front wheel of the robot to lift off the ground as the robot tilted back. This causes the QRDs to miss readings and so we had to come up with solutions on the spot to resolve them in a short amount of time. We put masses on the front to reduce the lift-up movement and adjusted the code, such that the lift-offs are taken into consideration.
+	<br /><br />
+	However, after some work, the hook was the most reliable system of our robot.
+</div>
+
+<div>
+	<img class="col three" src="/img/robot_sliding.gif" alt="" title="robot hoist up onto zipline and sliding down" />
+</div>
+
+<p><br /><br />
+-end-</p>
+
+<p><br /><br /></p>
+
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+  	<p>This site was built using <a href="http://jekyllrb.com" target="_blank">Jekyll</a> and is hosted on <a href="https://github.com" target="_blank">Github</a> Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a> and text generated with <a href="http://hipsum.co" target="_blank">Hipster Ipsum</a>. &#169; 2015</p>
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

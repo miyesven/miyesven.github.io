@@ -215,7 +215,7 @@ width: 500px;
 height: auto;
 position: relative;
 left: -25%;
-top: -5%;
+top: -25%;
 }
 .thumbnail a{
 float: left;
@@ -232,7 +232,7 @@ bottom: 0;
 right: 0;
 background: rgba(0,0,0,0.4);
 color: $grey-color-light;
-padding: 40px;
+padding: 25px;
 text-align: center;
 }
 .thumbnail a:hover span {
@@ -270,6 +270,9 @@ width: 66.66%;
 }
 .three{
 width: 100%;
+}
+.half{
+width: 50%;
 }
 .caption{
 height: 100%;

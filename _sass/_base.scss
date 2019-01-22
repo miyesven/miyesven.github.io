@@ -108,6 +108,24 @@ li {
     }
 }
 
+/**
+ * Tables
+ */
+table {
+    font-size: 14px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    text-align: center;
+    border: 1px solid #dddddd;
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
 
 
 /**
@@ -123,7 +141,6 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
     color: $text-color;
-    text-decoration: none;
     /*
     &:visited {
         color: darken($brand-color, 15%); 
@@ -131,7 +148,7 @@ a {
     */
     &:hover {
         color: $theme-color;
-        text-decoration: none;
+        text-decoration: underline;
     }
 }
 
