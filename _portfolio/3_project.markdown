@@ -41,6 +41,7 @@ img: /img/3.jpg
 
  The chassis needed to be structurally sound to provide adequate mounting support for electronics like the main controller board (TINAH), QRDs (for positioning), batteries and so on. The most involved mounting point was that of the zipline hook.
 
+<br/>
 <h3> Zipline Hook </h3>
 
 <br/>
