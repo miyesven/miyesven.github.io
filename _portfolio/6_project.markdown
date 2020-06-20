@@ -40,6 +40,7 @@ Designed and fabricated the quarter scale nosecone (half the diameter and half t
   <img src="{{ site.baseurl }}/img/comp_nosecone_outside.JPG" alt="" title=""/>
   <p> Finally, half of one prototype nosecone comes out of the mold all shiny! Made of 4 layers of twill weave. </p>
 </div>
+
 <br/><br/>
 
 <h2> Recovery BodyTube (Airframe Section right below nosecone) </h2>
