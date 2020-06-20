@@ -19,23 +19,19 @@ Designed and fabricated the quarter scale nosecone (half the diameter and half t
 <h4> Process (more info to come): </h4>
 
 <div class="img_row">
-  <img class="col two" src="{{ site.baseurl }}/img/comp_materials.JPG" alt="" title="composite materials"/>
+  <img src="{{ site.baseurl }}/img/comp_materials.JPG" alt="" title="composite materials"/>
   <p> Composite Materials assembled </p>
-</div>
-<div class="img_row">
-  <img class="col two" src="{{ site.baseurl }}/img/comp_foam.JPG" alt="" title=""/>
+
+  <img src="{{ site.baseurl }}/img/comp_foam.JPG" alt="" title=""/>
   <p> Cutting, sanding, filling of the foam </p>
-</div>
-<div class="img_row">
-  <img class="col two" src="{{ site.baseurl }}/img/comp_gelcoat.JPG" alt="" title=""/>
+
+  <img src="{{ site.baseurl }}/img/comp_gelcoat.JPG" alt="" title=""/>
   <p> Plug is gelcoated and polished! </p>
-</div>
-<div class="img_row">
-  <img class="col two" src="{{ site.baseurl }}/img/comp_fibreglass.JPG" alt="" title=""/>
+
+  <img src="{{ site.baseurl }}/img/comp_fibreglass.JPG" alt="" title=""/>
   <p> Plug is fibreglassed over! Making of the mold! </p>
-</div>
-<div class="img_row">
-  <img class="col two" src="{{ site.baseurl }}/img/comp_postpull" alt="" title=""/>
+
+  <img src="{{ site.baseurl }}/img/comp_postpull" alt="" title=""/>
   <p> Out pops a mold from the plug </p>
 </div>
 <div class="img_row">
