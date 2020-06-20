@@ -2,10 +2,11 @@
 layout: post
 title: UBC Rocket 
 description: Lead prototype efforts of flight components
-img: 
+img: /img/canards.png
 ---
 !! this page is still under construction !!
 <h1> 4th Year Capstone Project </h1>
+<br/><br/>
 <h2> Investigating Effectiveness of Canards as Roll Control Guidance system </h2>
 
 <br/>
