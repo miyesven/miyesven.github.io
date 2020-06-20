@@ -6,7 +6,7 @@ img: /img/rocket_mockup.png
 ---
 <h3> !! this page is still under construction !! </h3>
 <br/> <br/>
-<h2> Composite Nosecone </h2>
+<h3> Composite Nosecone </h3>
 
 <br/>
 Designed and fabricated the quarter scale nosecone (half the diameter and half the height)
@@ -43,7 +43,7 @@ Designed and fabricated the quarter scale nosecone (half the diameter and half t
 
 <br/><br/>
 
-<h2> Recovery BodyTube (Airframe Section right below nosecone) </h2>
+<h3> Recovery BodyTube (Airframe Section right below nosecone) </h3>
 
 <br/>
 Multiple iterations of bodytube prototyping
