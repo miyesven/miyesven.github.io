@@ -4,6 +4,7 @@ title: UBC Rocket
 description: Lead prototype efforts of flight components
 img: /img/rocket_mockup.png
 ---
+
 <h3> !! this page is still under construction !! </h3>
 <br/> <br/>
 <h3> Composite Nosecone </h3>
@@ -11,7 +12,7 @@ img: /img/rocket_mockup.png
 <br/>
 Designed and fabricated the quarter scale nosecone (half the diameter and half the height)
 <br/>
-<div>
+<div class="img_row">
   <img src="{{ site.baseurl }}/img/comp_cad.png" alt="" title=""/>
 </div>
 
@@ -21,23 +22,22 @@ Designed and fabricated the quarter scale nosecone (half the diameter and half t
   <img src="{{ site.baseurl }}/img/comp_materials.JPG" alt="" title="composite materials"/>
   <p> Composite Materials assembled </p>
 
-  <img src="{{ site.baseurl }}/img/comp_foam.JPG" alt="" title=""/>
+  <img src="{{ site.baseurl }}/img/comp_foam.JPG" alt="" title=" "/>
   <p> Cutting, sanding, filling of the foam </p>
 
-  <img src="{{ site.baseurl }}/img/comp_gelcoat.JPG" alt="" title=""/>
+  <img src="{{ site.baseurl }}/img/comp_gelcoat.JPG" alt="" title=" "/>
   <p> Plug is gelcoated and polished! </p>
 
-  <img src="{{ site.baseurl }}/img/comp_fibreglass.JPG" alt="" title=""/>
+  <img src="{{ site.baseurl }}/img/comp_fibreglass.JPG" alt="" title=" "/>
   <p> Plug is fibreglassed over! Making of the mold! </p>
 
-  <img src="{{ site.baseurl }}/img/comp_postpull.JPG" alt="" title=""/>
+  <img src="{{ site.baseurl }}/img/comp_postpull.JPG" alt="" title=" "/>
   <p> Out pops a mold from the plug </p>
 
-  <img src="{{ site.baseurl }}/img/comp_infusion.JPG" alt="" title=""/>
+  <img src="{{ site.baseurl }}/img/comp_infusion.JPG" alt="" title=" "/>
   <p> One final step-- vaccum infusing the carbon fiber in the negative mold. We use vacuum infusion in an attempt to increase strength to weight ratio while being cost effective. Better than wet layup but not as good as prepreg</p>
-</div>
-<div class="img_row">
-  <img src="{{ site.baseurl }}/img/comp_nosecone_outside.JPG" alt="" title=""/>
+
+  <img src="{{ site.baseurl }}/img/comp_nosecone_outside.JPG" alt="" title=" "/>
   <p> Finally, half of one prototype nosecone comes out of the mold all shiny! Made of 4 layers of twill weave. </p>
 </div>
 
@@ -48,7 +48,7 @@ Designed and fabricated the quarter scale nosecone (half the diameter and half t
 <br/>
 Multiple iterations of bodytube prototyping
 <br/>
-<div>
+<div class="img_row">
   <img src="{{ site.baseurl }}/img/bt2.png" alt="" title=""/>
 </div>
 
