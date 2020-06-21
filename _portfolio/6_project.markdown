@@ -27,24 +27,24 @@ Designed and fabricated the quarter scale nosecone (half the diameter and half t
   <p> Cutting, sanding, filling of the foam </p>
 </div>
 <div class = "img_row">
-  <img class = "col half" src="{{ site.baseurl }}/img/comp_gelcoat.JPG" alt="" title=" "/>
-  <p class = "col half"> Plug is gelcoated and polished! </p>
+  <img class = "col" src="{{ site.baseurl }}/img/comp_gelcoat.JPG" alt="" title=" "/>
+  <p class = "col"> Plug is gelcoated and polished! </p>
 </div>
 <div class = "img_row">
-  <img class = "col half" src="{{ site.baseurl }}/img/comp_fibreglass.JPG" alt="" title=" "/>
-  <p class = "col half"> Plug is fibreglassed over! Making of the mold! </p>
+  <img class = "col" src="{{ site.baseurl }}/img/comp_fibreglass.JPG" alt="" title=" "/>
+  <p class = "col"> Plug is fibreglassed over! Making of the mold! </p>
 </div>
 <div class = "img_row">
-  <img class = "col half" src="{{ site.baseurl }}/img/comp_postpull.JPG" alt="" title=" "/>
-  <p class = "col half"> Out pops a mold from the plug </p>
+  <img class = "col" src="{{ site.baseurl }}/img/comp_postpull.JPG" alt="" title=" "/>
+  <p class = "col"> Out pops a mold from the plug </p>
 </div>
 <div class = "img_row">
-  <img class = "col half" src="{{ site.baseurl }}/img/comp_infusion.JPG" alt="" title=" "/>
-  <p class = "col half"> One final step-- vaccum infusing the carbon fiber in the negative mold. We use vacuum infusion in an attempt to increase strength to weight ratio while being cost effective. Better than wet layup but not as good as prepreg</p>
+  <img class = "col" src="{{ site.baseurl }}/img/comp_infusion.JPG" alt="" title=" "/>
+  <p class = "col"> One final step-- vaccum infusing the carbon fiber in the negative mold. We use vacuum infusion in an attempt to increase strength to weight ratio while being cost effective. Better than wet layup but not as good as prepreg</p>
 </div>
 <div class = "img_row">
-  <img class = "col half" src="{{ site.baseurl }}/img/comp_nosecone_outside.JPG" alt="" title=" "/>
-  <p class = "col half"> Finally, half of one prototype nosecone comes out of the mold all shiny! Made of 4 layers of twill weave. </p>
+  <img class = "col" src="{{ site.baseurl }}/img/comp_nosecone_outside.JPG" alt="" title=" "/>
+  <p class = "col"> Finally, half of one prototype nosecone comes out of the mold all shiny! Made of 4 layers of twill weave. </p>
 </div>
 
 <br/><br/>
