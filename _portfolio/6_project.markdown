@@ -54,28 +54,28 @@ Designed and fabricated the quarter scale nosecone (half the diameter and half t
 <br/>
 Multiple iterations of bodytube prototyping
 <br/>
-<div class="img_row">
+<div class="row">
   <img src="{{ site.baseurl }}/img/bt2.png" alt="" title=""/>
 </div>
 
 <h3> First Iteration (more info to come): </h3>
 
-<div class="img_row">
-  <img src="{{ site.baseurl }}/img/pt_1_outside.JPG" alt="" title=""/>
-  <p> Rolled and bent aluminum sheets form a stiff 1/8" section with the full scale diameter </p>
+<div class="row">
+  <img class = "col" src="{{ site.baseurl }}/img/pt_1_outside.JPG" alt="" title=""/>
+  <p class = "caption"> Rolled and bent aluminum sheets form a stiff 1/8" section with the full scale diameter </p>
 
-  <img src="{{ site.baseurl }}/img/pt_1_inside.JPG" alt="" title=""/>
-  <p> Rivets are visible from the inside </p>
+  <img class = "row" src="{{ site.baseurl }}/img/pt_1_inside.JPG" alt="" title=""/>
+  <p class = "caption"> Rivets are visible from the inside </p>
 
 </div>
 
 <h3> Second Iteration (more info to come): </h3>
-<div class="img_row">
-  <img src="{{ site.baseurl }}/img/pt_cb_4.JPG" alt="" title=""/>
-  <p> Full channel bender assembly. Saved a valuable $300-700 by not buying a commercial unit that we would have to make our own custom dies as well. </p>
+<div class="row">
+  <img class = "col" src="{{ site.baseurl }}/img/pt_cb_4.JPG" alt="" title=""/>
+  <p class = "caption"> Full channel bender assembly. Saved a valuable $300-700 by not buying a commercial unit that we would have to make our own custom dies as well. </p>
 
-  <img src="{{ site.baseurl }}/img/pt_cb_3.JPG" alt="" title=""/>
-  <p> A straight U channel has been bent into a C shape! Relatively quickly </p>
+  <img class= "col" src="{{ site.baseurl }}/img/pt_cb_3.JPG" alt="" title=""/>
+  <p class = "caption"> A straight U channel has been bent into a C shape! Relatively quickly </p>
 
 </div>
 </div>
