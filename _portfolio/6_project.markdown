@@ -20,11 +20,11 @@ Designed and fabricated the quarter scale nosecone (half the diameter and half t
 
 <div class= "row">
   <img class = "col two" src="{{ site.baseurl }}/img/comp_materials.JPG" alt="" title="composite materials"/>
-  <p class = "col one caption"> Composite Materials assembled </p>
+  <div class = "col one caption"> <p> Composite Materials assembled </p> </div>
 </div>
 <div class = "row">
   <img class = "col two" src="{{ site.baseurl }}/img/comp_foam.JPG" alt="" title=" "/>
-  <p class = "col one caption"> Cutting, sanding, filling of the foam </p>
+  <div class = "col one caption"> <p> Cutting, sanding, filling of the foam </p> </div>
 </div>
 <div class = "img_row">
   <img class = "col" src="{{ site.baseurl }}/img/comp_gelcoat.JPG" alt="" title=" "/>
