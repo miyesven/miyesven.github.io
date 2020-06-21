@@ -13,7 +13,7 @@ img: /img/rocket_mockup.png
 Designed and fabricated the quarter scale nosecone (half the diameter and half the height)
 <br/>
 <div class="row">
-  <img src="{{ site.baseurl }}/img/comp_cad.png" alt="" title=""/>
+  <img class = "col" src="{{ site.baseurl }}/img/comp_cad.png" alt="" title=""/>
 </div>
 
 <h3> Process (more info to come): </h3>
