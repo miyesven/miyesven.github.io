@@ -12,7 +12,7 @@ img: /img/rocket_mockup.png
 <br/>
 Designed and fabricated the quarter scale nosecone (half the diameter and half the height)
 <br/>
-<div class="img_row">
+<div class="row">
   <img src="{{ site.baseurl }}/img/comp_cad.png" alt="" title=""/>
 </div>
 
@@ -23,28 +23,28 @@ Designed and fabricated the quarter scale nosecone (half the diameter and half t
   <div class = "caption"> Composite Materials assembled </div>
 </div>
 <div class = "row">
-  <img class = "col three" src="{{ site.baseurl }}/img/comp_foam.JPG" alt="" title=" "/>
-  <div class = "col three caption"> <p> Cutting, sanding, filling of the foam </p> </div>
+  <img class = "col" src="{{ site.baseurl }}/img/comp_foam.JPG" alt="" title=" "/>
+  <div class = "caption"> Cutting, sanding, filling of the foam </div>
 </div>
-<div class = "img_row">
+<div class = "row">
   <img class = "col" src="{{ site.baseurl }}/img/comp_gelcoat.JPG" alt="" title=" "/>
-  <p class = "col"> Plug is gelcoated and polished! </p>
+  <p class = "caption"> Plug is gelcoated and polished! </p>
 </div>
-<div class = "img_row">
+<div class = "row">
   <img class = "col" src="{{ site.baseurl }}/img/comp_fibreglass.JPG" alt="" title=" "/>
-  <p class = "col"> Plug is fibreglassed over! Making of the mold! </p>
+  <p class = "caption"> Plug is fibreglassed over! Making of the mold! </p>
 </div>
-<div class = "img_row">
+<div class = "row">
   <img class = "col" src="{{ site.baseurl }}/img/comp_postpull.JPG" alt="" title=" "/>
-  <p class = "col"> Out pops a mold from the plug </p>
+  <p class = "caption"> Out pops a mold from the plug </p>
 </div>
-<div class = "img_row">
+<div class = "row">
   <img class = "col" src="{{ site.baseurl }}/img/comp_infusion.JPG" alt="" title=" "/>
-  <p class = "col"> One final step-- vaccum infusing the carbon fiber in the negative mold. We use vacuum infusion in an attempt to increase strength to weight ratio while being cost effective. Better than wet layup but not as good as prepreg</p>
+  <p class = "caption"> One final step-- vaccum infusing the carbon fiber in the negative mold. We use vacuum infusion in an attempt to increase strength to weight ratio while being cost effective. Better than wet layup but not as good as prepreg</p>
 </div>
-<div class = "img_row">
+<div class = "row">
   <img class = "col" src="{{ site.baseurl }}/img/comp_nosecone_outside.JPG" alt="" title=" "/>
-  <p class = "col"> Finally, half of one prototype nosecone comes out of the mold all shiny! Made of 4 layers of twill weave. </p>
+  <p class = "caption"> Finally, half of one prototype nosecone comes out of the mold all shiny! Made of 4 layers of twill weave. </p>
 </div>
 
 <br/><br/>
