@@ -4,7 +4,7 @@ title: UBC Rocket
 description: Lead prototype efforts of flight components
 img: /img/rocket_mockup.png
 ---
-
+<div style="width=100%;">
 <h3> !! this page is still under construction !! </h3>
 <br/> <br/>
 <h3> Composite Nosecone </h3>
@@ -19,7 +19,7 @@ Designed and fabricated the quarter scale nosecone (half the diameter and half t
 <h3> Process (more info to come): </h3>
 
 <div class = "img_row">
-  <img class = "col half" src="{{ site.baseurl }}/img/comp_materials.JPG" alt="" title="composite materials"/>
+  <img class = "col" src="{{ site.baseurl }}/img/comp_materials.JPG" alt="" title="composite materials"/>
   <p class = "col half"> Composite Materials assembled </p>
 </div>
 <div class = "img_row">
@@ -78,6 +78,6 @@ Multiple iterations of bodytube prototyping
   <p> A straight U channel has been bent into a C shape! Relatively quickly </p>
 
 </div>
-
+</div>
 -end-
 <br/><br/>
