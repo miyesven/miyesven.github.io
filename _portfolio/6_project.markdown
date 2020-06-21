@@ -64,7 +64,7 @@ Multiple iterations of bodytube prototyping
   <img class = "col" src="{{ site.baseurl }}/img/pt_1_outside.JPG" alt="" title=""/>
   <p class = "caption"> Rolled and bent aluminum sheets form a stiff 1/8" section with the full scale diameter </p>
 
-  <img class = "row" src="{{ site.baseurl }}/img/pt_1_inside.JPG" alt="" title=""/>
+  <img class = "col" src="{{ site.baseurl }}/img/pt_1_inside.JPG" alt="" title=""/>
   <p class = "caption"> Rivets are visible from the inside </p>
 
 </div>
