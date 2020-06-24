@@ -22,17 +22,15 @@ img: /img/rocket_mockup.png
 </div>
 
 <div class = "img_row">
-  <img class = "col one" src="{{ site.baseurl }}/img/comp_foam.JPG" alt="" title=" "/>
-
-  <img class = "col one" src="{{ site.baseurl }}/img/comp_gelcoat.JPG" alt="" title=" "/>
-
-  <img class = "col one" src="{{ site.baseurl }}/img/comp_fibreglass.JPG" alt="" title=" "/>
+  <img class = "col half" src="{{ site.baseurl }}/img/comp_foam.JPG" alt="" title=" "/>
+  <img class = "col half" src="{{ site.baseurl }}/img/comp_gelcoat.JPG" alt="" title=" "/>
 </div>
 
-<div class = "row">
-  <img class = "col" src="{{ site.baseurl }}/img/comp_postpull.JPG" alt="" title=" "/>
-  <p class = "caption"> Out pops a mold from the plug </p>
+<div class = "img_row">
+  <img class = "col half" src="{{ site.baseurl }}/img/comp_fibreglass.JPG" alt="" title=" "/>
+   <img class = "col half" src="{{ site.baseurl }}/img/comp_postpull.JPG" alt="" title=" "/>
 </div>
+
 <div class = "row">
   <img class = "col" src="{{ site.baseurl }}/img/comp_infusion.JPG" alt="" title=" "/>
   <p class = "caption"> One final step-- vaccum infusing the carbon fiber in the negative mold. We use vacuum infusion in an attempt to increase strength to weight ratio while being cost effective. Better than wet layup but not as good as prepreg</p>
