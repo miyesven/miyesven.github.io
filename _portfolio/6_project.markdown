@@ -13,12 +13,15 @@ img: /img/rocket_mockup.png
  <h5>I led the design and fabrication of the quarter scale nosecone (half the diameter and half the height). Below describes the design and process. The nosecone was designed with a Von Karman curve due to the balanced behaviour over multiple mach regions in flight.</h5> 
 <br/>
 
+<div class = "row">
 <div class="img_row col two">
   <img src="{{ site.baseurl }}/img/comp_cad.png" alt="" title=""/> 
 </div>
 <div class = "col one">To the left is the Solidworks Model of the composite plug used to make the prototype nosecone. The vertical sections represent the supporting wooden ribs and foam sections. The plug was designed with a 2 degree draft relief angle and a flat 
 </div>
+</div>
 
+<br/>
 <div class = "row">
   <h3> Process (more info to come): </h3>
 </div>
@@ -35,7 +38,7 @@ img: /img/rocket_mockup.png
    <img class = "col half" src="{{ site.baseurl }}/img/comp_postpull.JPG" alt="" title=" "/>
 </div>
 
-<p> After polishing the plug, the fibreglass mold was fabricated from a wet layup using fibreglass mat and cheap polyester resin. We were careful to use fibreglass weave for the first two layers so the contours were more accurately captured. The picture on the right shows the finished mold which came off nicely. </p>
+<p> After polishing the plug, the composite mold was fabricated from a wet layup using fibreglass mat and cheap polyester resin. We were careful to use fibreglass weave for the first two layers so the contours were more accurately captured. The picture on the right shows the finished mold which came off nicely. </p>
 
 <div class = "row">
   <img class = "col" src="{{ site.baseurl }}/img/comp_infusion.JPG" alt="" title=" "/>
