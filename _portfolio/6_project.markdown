@@ -13,7 +13,8 @@ img: /img/rocket_mockup.png
 Designed and fabricated the quarter scale nosecone (half the diameter and half the height)
 <br/>
 <div class="row">
-  <img class = "col" src="{{ site.baseurl }}/img/comp_cad.png" alt="" title=""/>
+  <img class = "col half" src="{{ site.baseurl }}/img/comp_cad.png" alt="" title=""/>
+  <span class = "col half">To the left is the Solidworks Model of the composite plug used to make the prototype nosecone. The vertical sections represent the wood and foam sections.</span>
 </div>
 
 <h3> Process (more info to come): </h3>
