@@ -10,10 +10,11 @@ img: /img/rocket_mockup.png
 <h3> Composite Nosecone </h3>
 
 <br/>
- <h5>I led the design and fabrication of the quarter scale nosecone (half the diameter and half the height). Below describes the design and process.</h5> 
+ <h5>I led the design and fabrication of the quarter scale nosecone (half the diameter and half the height). Below describes the design and process. The nosecone was designed with a Von Karman curve due to the balanced behaviour over multiple mach regions in flight.</h5> 
 <br/>
+
 <div class="img_row col two">
-  <img class = "col two" src="{{ site.baseurl }}/img/comp_cad.png" alt="" title=""/> 
+  <img src="{{ site.baseurl }}/img/comp_cad.png" alt="" title=""/> 
 </div>
 <div class = "col one">To the left is the Solidworks Model of the composite plug used to make the prototype nosecone. The vertical sections represent the supporting wooden ribs and foam sections. The plug was designed with a 2 degree draft relief angle and a flat 
 </div>
@@ -27,18 +28,22 @@ img: /img/rocket_mockup.png
   <img class = "col half" src="{{ site.baseurl }}/img/comp_gelcoat.JPG" alt="" title=" "/>
 </div>
 
+<p> Assembled foam pieces and wooden support ribs, initially cut out the rough contours with a hot wire cutter. After laboriously epoxying, bonding, sanding, applying gelcoat then polishing, we get a smooth and shiny plug on the right with an approximate curve. </p>
+
 <div class = "img_row">
   <img class = "col half" src="{{ site.baseurl }}/img/comp_fibreglass.JPG" alt="" title=" "/>
    <img class = "col half" src="{{ site.baseurl }}/img/comp_postpull.JPG" alt="" title=" "/>
 </div>
 
+<p> After polishing the plug, the fibreglass mold was fabricated from a wet layup using fibreglass mat and cheap polyester resin. We were careful to use fibreglass weave for the first two layers so the contours were more accurately captured. The picture on the right shows the finished mold which came off nicely. </p>
+
 <div class = "row">
   <img class = "col" src="{{ site.baseurl }}/img/comp_infusion.JPG" alt="" title=" "/>
-  <p class = "caption"> One final step-- vaccum infusing the carbon fiber in the negative mold. We use vacuum infusion in an attempt to increase strength to weight ratio while being cost effective. Better than wet layup but not as good as prepreg</p>
+  <p> One final step-- vaccum infusing the carbon fiber in the negative mold. We use vacuum infusion in an attempt to increase strength to weight ratio while being cost effective. Better than wet layup but not as good as prepreg</p>
 </div>
 <div class = "row">
   <img class = "col" src="{{ site.baseurl }}/img/comp_nosecone_outside.JPG" alt="" title=" "/>
-  <p class = "caption"> Finally, half of one prototype nosecone comes out of the mold all shiny! Made of 4 layers of twill weave. </p>
+  <p> Finally, half of one prototype nosecone comes out of the mold all shiny! Made of 4 layers of carbon fiber 45/45 weave. </p>
 </div>
 
 <br/><br/>
