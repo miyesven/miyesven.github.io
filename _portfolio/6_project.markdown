@@ -12,23 +12,23 @@ img: /img/rocket_mockup.png
 <br/>
  <h5>I led the design and fabrication of the quarter scale nosecone (half the diameter and half the height). Below describes the design and process.</h5> 
 <br/>
-<div class="row" style="max-width=800px;">
-  <div class = "col-8"> <img src="{{ site.baseurl }}/img/comp_cad.png" alt="" title=""/> </div>
-  <div class = "col-4">To the left is the Solidworks Model of the composite plug used to make the prototype nosecone. The vertical sections represent the supporting wooden ribs and foam sections. The plug was designed with a 2 degree draft relief angle and a flat base to allow for vacuum seal placement.</div>
+<div class="img_row" style="max-width=800px;">
+  <div class = "col two"> <img src="{{ site.baseurl }}/img/comp_cad.png" alt="" title=""/> </div>
+  <div class = "col one">To the left is the Solidworks Model of the composite plug used to make the prototype nosecone. The vertical sections represent the supporting wooden ribs and foam sections. The plug was designed with a 2 degree draft relief angle and a flat base to allow for vacuum seal placement.</div>
 </div>
 
 <div class = "row">
   <h3> Process (more info to come): </h3>
 </div>
 
-<div class = "row">
+<div class = "img_row">
   <img class = "col one" src="{{ site.baseurl }}/img/comp_foam.JPG" alt="" title=" "/>
   <div class = "caption"> Cutting, sanding, filling of the foam </div>
 
-  <img class = "col two" src="{{ site.baseurl }}/img/comp_gelcoat.JPG" alt="" title=" "/>
+  <img class = "col one" src="{{ site.baseurl }}/img/comp_gelcoat.JPG" alt="" title=" "/>
   <p class = "caption"> Plug is gelcoated and polished! </p>
 
-  <img class = "col three" src="{{ site.baseurl }}/img/comp_fibreglass.JPG" alt="" title=" "/>
+  <img class = "col one" src="{{ site.baseurl }}/img/comp_fibreglass.JPG" alt="" title=" "/>
   <p class = "caption"> Plug is fibreglassed over! Making of the mold! </p>
 </div>
 
