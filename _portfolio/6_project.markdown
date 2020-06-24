@@ -23,13 +23,10 @@ img: /img/rocket_mockup.png
 
 <div class = "img_row">
   <img class = "col one" src="{{ site.baseurl }}/img/comp_foam.JPG" alt="" title=" "/>
-  <div class = "caption"> Cutting, sanding, filling of the foam </div>
 
   <img class = "col one" src="{{ site.baseurl }}/img/comp_gelcoat.JPG" alt="" title=" "/>
-  <p class = "caption"> Plug is gelcoated and polished! </p>
 
   <img class = "col one" src="{{ site.baseurl }}/img/comp_fibreglass.JPG" alt="" title=" "/>
-  <p class = "caption"> Plug is fibreglassed over! Making of the mold! </p>
 </div>
 
 <div class = "row">
