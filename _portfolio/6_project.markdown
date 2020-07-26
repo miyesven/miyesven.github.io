@@ -58,7 +58,7 @@ img: /img/rocket_mockup.png
 
 <h3> First Prototype : Stressed Skin Formation </h3>
 
-<div class="img_row">
+<div class="row">
   <img class = "col one" src="{{ site.baseurl }}/img/pt_1_outside.JPG" alt="" title=""/>
   <img class = "col two" src="{{ site.baseurl }}/img/pt_1_inside_explanations.JPG" alt="" title=" "/>
 </div>
@@ -67,7 +67,7 @@ img: /img/rocket_mockup.png
 </div>
 
 <h3> Second Prototype : Curved Ribs Formation </h3>
-<div class="img_row">
+<div class="row">
   <img class="col one" src="{{ site.baseurl }}/img/pt_cb_3.JPG" alt="" title=""/>
   <img class="coL two" src="{{ site.baseurl }}/img/pt_cb_4_explanations.JPG" alt="" title=""/>
 </div>
