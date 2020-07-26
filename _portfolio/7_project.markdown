@@ -3,7 +3,7 @@ layout: post
 title: UBC Rocket 
 description: Lead prototype efforts of flight components
 img: /img/canards.png
-
+---
 <div style="width=100%;">
 
 <h1> 4th Year Capstone Project </h1>

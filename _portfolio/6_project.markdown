@@ -59,8 +59,8 @@ img: /img/rocket_mockup.png
 <h3> First Prototype : Stressed Skin Formation </h3>
 
 <div class="img_row">
-  <img class = "col one" src="{{ site.baseurl }}/img/pt_1_outside.JPG" alt="" title=""/>
-  <img class = "col two" src="{{ site.baseurl }}/img/pt_1_inside_explanations.JPG" alt="" title=""/>
+  <img class = "col one" src="{{ site.baseurl }}/img/pt_1_outside.JPG" alt="" title="" width="33%"/>
+  <img class = "col two" src="{{ site.baseurl }}/img/pt_1_inside_explanations.JPG" alt="" width="66%" title=" "/>
 </div>
 <div>
   <p> This is a stressed skin prototype that is reminiscent of the type of manufacturing typically found in aircrafts. It has a high stiffness to weight ratio, which is a desirable property for the rocket. However, due to the curved skin in the interface between the outer skin and the longitudinal struts, there is an undesirable gap between the two sheets being riveted together which can cause premature failure. </p>
@@ -72,7 +72,7 @@ img: /img/rocket_mockup.png
   <img class="coL two" src="{{ site.baseurl }}/img/pt_cb_4_explanations.JPG" alt="" title=""/>
 </div>
 <div>
-   <p class = "caption"> I designed and made a channel bender assembly. Saved a valuable $300-700 by not buying a commercial unit that we would have to make our own custom dies as well. As can be seen on the right, a straight aluminum channel is easily rolled into a circular shape. Making the circular ribs has been the crux of manufacturing the circular ribs assembly design. After solving this problem, we moved into fabricating the three ribs and three columns and joining them together using conventional bolts. </p>
+   <p> I designed and made a channel bender assembly. Saved a valuable $300-700 by not buying a commercial unit that we would have to make our own custom dies as well. As can be seen on the right, a straight aluminum channel is easily rolled into a circular shape. Making the circular ribs has been the crux of manufacturing the circular ribs assembly design. After solving this problem, we moved into fabricating the three ribs and three columns and joining them together using conventional bolts. </p>
 </div>
 
 </div>
