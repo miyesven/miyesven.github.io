@@ -5,7 +5,6 @@ description: Lead prototype efforts of flight components
 img: /img/rocket_mockup.png
 ---
 <div style="width=100%;">
-<h3> !! this page is still under construction !! </h3>
 <br/> <br/>
 <h3> Composite Nosecone </h3>
 
@@ -49,35 +48,33 @@ img: /img/rocket_mockup.png
 
 <br/><br/>
 
-<h3> Recovery BodyTube (Airframe Section right below nosecone) </h3>
-
+<h3> Recovery BodyTube (Airframe Section right below Nosecone) </h3>
 <br/>
-Multiple iterations of bodytube prototyping
 <br/>
-<div class="row">
-  <img src="{{ site.baseurl }}/img/bt2.png" alt="" title=""/>
+<div class="img_row">
+  <div class = "col half"> To the right, is the CAD model of the current Recovery Bodytube Assembly. This construction is based on circular ribs, connected to three main thrust columns that run the length of this bodytube section. The three plates were designed by the recovery team to house the drogue and main parachutes separately. The material of choice is aluminum due to its high strength to weight ratio and its compatibility with many different types of fluids, including liquid oxygen (LOX). </div>
+  <img class = "col half" src="{{ site.baseurl }}/img/bt2.png" alt="" title="" width="200" height="450"/>
 </div>
 
-<h3> First Iteration (more info to come): </h3>
+<h3> First Prototype : Stressed Skin Formation </h3>
 
+<div class="img_row">
+  <img class = "col half" src="{{ site.baseurl }}/img/pt_1_outside.JPG" alt="" title=""/>
+  <img class = "col half" src="{{ site.baseurl }}/img/pt_1_inside.JPG" alt="" title=""/>
+</div>
 <div class="row">
-  <img class = "col" src="{{ site.baseurl }}/img/pt_1_outside.JPG" alt="" title=""/>
-  <p class = "caption"> Rolled and bent aluminum sheets form a stiff 1/8" section with the full scale diameter </p>
-
-  <img class = "col" src="{{ site.baseurl }}/img/pt_1_inside.JPG" alt="" title=""/>
-  <p class = "caption"> Rivets are visible from the inside </p>
-
+  <p> This is a stressed skin prototype that is reminiscent of the type of manufacturing typically found in aircrafts. It has a high stiffness to weight ratio, which is a desirable property for the rocket. However, due to the curved skin in the interface between the outer skin and the longitudinal struts, there is an undesirable gap between the two sheets being riveted together which can cause premature failure. </p>
 </div>
 
-<h3> Second Iteration (more info to come): </h3>
-<div class="row">
-  <img class = "col" src="{{ site.baseurl }}/img/pt_cb_4.JPG" alt="" title=""/>
-  <p class = "caption"> Full channel bender assembly. Saved a valuable $300-700 by not buying a commercial unit that we would have to make our own custom dies as well. </p>
-
-  <img class= "col" src="{{ site.baseurl }}/img/pt_cb_3.JPG" alt="" title=""/>
-  <p class = "caption"> A straight U channel has been bent into a C shape! Relatively quickly </p>
-
+<h3> Second Prototype : Curved Ribs Formation </h3>
+<div class="img_row">
+  <img class="coL half" src="{{ site.baseurl }}/img/pt_cb_4.JPG" alt="" title=""/>
+  <img class="col half" src="{{ site.baseurl }}/img/pt_cb_3.JPG" alt="" title=""/>
 </div>
+<div class="row">
+   <p class = "caption"> I designed and made a channel bender assembly. Saved a valuable $300-700 by not buying a commercial unit that we would have to make our own custom dies as well. As can be seen on the right, a straight aluminum channel is easily rolled into a circular shape. Making the circular ribs has been the crux of manufacturing the circular ribs assembly design. After solving this problem, we moved into fabricating the three ribs and three columns and joining them together using conventional bolts. </p>
+</div>
+
 </div>
 -end-
 <br/><br/>
