@@ -60,7 +60,7 @@ img: /img/rocket_mockup.png
 
 <div class="img_row">
 <!--   <img class = "col" src="{{ site.baseurl }}/img/pt_1_outside.JPG" alt="" title=""/>
- -->  <img class = "col" src="{{ site.baseurl }}/img/pt_1_inside_explanations.JPG" alt="" title=" "/>
+ -->  <img class = "col" src="{{ site.baseurl }}/img/pt_1_inside_explanations2.JPG" alt="" title=" "/>
 </div>
 <div>
   <p> This is a stressed skin prototype that is reminiscent of the type of manufacturing typically found in aircrafts. It has a high stiffness to weight ratio, which is a desirable property for the rocket. However, due to the curved skin in the interface between the outer skin and the longitudinal struts, there is an undesirable gap between the two sheets being riveted together which can cause premature failure. </p>
