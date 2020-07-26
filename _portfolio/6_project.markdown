@@ -51,16 +51,16 @@ img: /img/rocket_mockup.png
 <h3> Recovery BodyTube (Airframe Section right below Nosecone) </h3>
 <br/>
 <br/>
-<div class="img_row">
+<div class="row">
   <div class = "col half"> To the right, is the CAD model of the current Recovery Bodytube Assembly. This construction is based on circular ribs, connected to three main thrust columns that run the length of this bodytube section. The three plates were designed by the recovery team to house the drogue and main parachutes separately. The material of choice is aluminum due to its high strength to weight ratio and its compatibility with many different types of fluids, including liquid oxygen (LOX). </div>
-  <img class = "col half" src="{{ site.baseurl }}/img/bt2.png" alt="" title="" width="200" height="500"/>
+  <img class = "col half" src="{{ site.baseurl }}/img/bt2.png" alt="" title=""/>
 </div>
 
 <h3> First Prototype : Stressed Skin Formation </h3>
 
 <div class="img_row">
-  <img class = "col one" src="{{ site.baseurl }}/img/pt_1_outside.JPG" alt="" title="" width="33%"/>
-  <img class = "col two" src="{{ site.baseurl }}/img/pt_1_inside_explanations.JPG" alt="" width="66%" title=" "/>
+  <img class = "col one" src="{{ site.baseurl }}/img/pt_1_outside.JPG" alt="" title=""/>
+  <img class = "col two" src="{{ site.baseurl }}/img/pt_1_inside_explanations.JPG" alt="" title=" "/>
 </div>
 <div>
   <p> This is a stressed skin prototype that is reminiscent of the type of manufacturing typically found in aircrafts. It has a high stiffness to weight ratio, which is a desirable property for the rocket. However, due to the curved skin in the interface between the outer skin and the longitudinal struts, there is an undesirable gap between the two sheets being riveted together which can cause premature failure. </p>
